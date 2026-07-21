@@ -16,7 +16,7 @@ baseCommand:
 
 inputs:
   spatial_extent:
-    type: string[]
+    type: float[]
     inputBinding:
       prefix: --spatial_extent
 
