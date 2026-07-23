@@ -8,7 +8,7 @@ requirements:
   NetworkAccess:
     networkAccess: true
   DockerRequirement:
-    dockerPull: dmastrapasqua/ndvi-cdse:0.1.0
+    dockerPull: ghcr.io/dmastrapasqua/ndvi-cdse:0.1.0
 
 baseCommand:
   - python
