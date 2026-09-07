@@ -1,0 +1,26 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "sentinel-scene-001",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.5, 41.9]
+  },
+  "bbox": [12.5, 41.9, 12.5, 41.9],
+  "properties": {
+    "datetime": "2026-08-01T10:00:00Z"
+  },
+  "links": [],
+  "assets": {
+    "red": {
+      "href": "red.tif",
+      "type": "image/tiff; application=geotiff",
+      "eo:bands": [{"name": "red", "common_name": "red"}]
+    },
+    "nir": {
+      "href": "nir.tif",
+      "type": "image/tiff; application=geotiff",
+      "eo:bands": [{"name": "nir", "common_name": "nir"}]
+    }
+  }
+}
