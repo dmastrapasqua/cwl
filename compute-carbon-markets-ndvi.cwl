@@ -26,7 +26,7 @@ inputs:
       position: 2
 
   feature_collection:
-    type: File
+    type: string
     inputBinding:
       prefix: --feature-collection
       position: 3
