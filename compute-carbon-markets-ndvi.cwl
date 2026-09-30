@@ -8,7 +8,7 @@ requirements:
   NetworkAccess:
     networkAccess: true
   DockerRequirement:
-    dockerPull: registry.gitlab.com/planetek-ita/sbu-b2b/pkm117_archytas/archytas-flows/processor-vegetation-health-anomalies:0.1.0
+    dockerPull: docker.io/dmastrapasqua/processor-vegetation-health-anomalies:0.1.0
 
 baseCommand: [python, /app/archytas_flows/user/compute_carbon_markets_ndvi/src/plain_patcher.py]
 
