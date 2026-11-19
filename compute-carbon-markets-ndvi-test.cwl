@@ -8,9 +8,12 @@ requirements:
   NetworkAccess:
     networkAccess: true
   DockerRequirement:
-    dockerPull: docker.io/dmastrapasqua/processor-vegetation-health-anomalies:test
+    dockerPull: docker.io/dmastrapasqua/processor-vegetation-health-anomalies:test-obscured
 
-baseCommand: [python, /app/archytas_flows/user/compute_carbon_markets_ndvi/src/plain_patcher.py]
+baseCommand:
+  - python
+  - -c
+  - "from archytas_flows.user.compute_carbon_markets_ndvi.src.plain_patcher import main; main()"
 
 inputs:
   time:
