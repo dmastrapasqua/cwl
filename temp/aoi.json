@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","name":"aoi_mada","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:EPSG::32739"}},"features":[{"type":"Feature","properties":{"Id":0,"area":1.0},"geometry":{"type":"MultiPolygon","coordinates":[[[[324944.0,7996708.0],[325044.0,7996708.0],[325044.0,7996608.0],[324944.0,7996608.0],[324944.0,7996708.0]]]]}}]}
