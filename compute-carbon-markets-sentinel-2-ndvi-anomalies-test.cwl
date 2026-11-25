@@ -8,7 +8,7 @@ requirements:
   NetworkAccess:
     networkAccess: true
   DockerRequirement:
-    dockerPull: docker.io/dmastrapasqua/processor-vegetation-health-anomalies:carbon-markets-repo
+    dockerPull: docker.io/dmastrapasqua/processor-vegetation-health-anomalies:sentinel-2
 
 baseCommand:
   - python
